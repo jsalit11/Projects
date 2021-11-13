@@ -1,0 +1,12 @@
+SAMPLES = 128
+BATCH_SIZE = 32
+NUM_EPOCHS = 10
+IMAGE_WIDTH = 64
+IMAGE_HEIGHT = 64
+UNQ_LABELS = 6
+FILE_DIR = r'data/archive'
+PREDICT_FILE_DIR = r'data/new_data'
+LOG_CONFIG_FILE_PATH = r'logs/log_config.yaml'
+PREDICT_LOG_CONFIG_FILE_PATH = r'logs/predict_log_config.yaml'
+MODEL_FILE_PATH = r'model/model'
+LE_FILE_PATH = r'model/label_encoder/label_encoder.pkl'
