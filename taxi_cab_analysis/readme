@@ -1,0 +1,29 @@
+This is a basic quick analysis of exploring Taxi-Cab in New York data. Further analysis and work is needed to have a more comprehensive understanding of the data and the models with the most predictiveness. The analysis is setup to have the taxi_cab python file do most of the heavy lifting and be imported into the notebook for exploration and training.
+
+Files
+- exploration.ipynb - python notebook to explore and run models
+- taxi_cab.py - python file with the heavy code lifting
+- requirements.txt - package list to install
+- taxi_cab_results.csv - preliminray results generated from running models
+
+How to run (~10-15 minutes without neural networks)
+- I suggest creating a new virtual environment
+- run pip install -r requirements.txt to install packages
+- Open the file "exporation.ipynb" and run all cells
+- If training neural network models is desired, set "run_neural_networks" to True when running the function "calc_results". It is set to False because of the amount of time needed to train.
+
+Exploration Table of Contents
+- Load and investigate data
+- Evaluate data distributions
+- Determine how to get better tips for taxi/cab drivers
+- Explore statistics based on hour of the day
+- Feature engineering
+- Train models
+- Basic anomaly detection
+
+Further analysis needed
+- Better handling of outliers for preprocessing and model predictions
+- Derived features - Day of year / holidays 
+- Explore the impact of Geographical coordinates 
+- More hyperparameter tuning
+- Monitoring, logging, explainability
